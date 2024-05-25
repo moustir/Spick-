@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Jersey+15&family=Rubik+Maps&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section>
+  
+  <div class="time">
+    <div class="one">
+      <h1 id="time-one">60</h1>
+      <i class="fa-solid fa-clock"></i>
+    </div>
+    <div class="win-to">
+      
+    <div class="two">
+      <i class="fa-solid fa-trophy"></i>
+      <h1 id="tiop">0</h1>
+    </div>
+    
+    <div class="two win-en">
+      <i class="fa-solid fa-heart-crack"></i>
+      <h1 id="ti">0</h1>
+    </div>
+  
+    </div>
+    </div>
+  <div>
+
+   
+    <div class="container">
+
+        <div id="operation"></div>
+        <div   id="answer"></div>
+        <div id="result"></div>
+    </div>
+
+  
+  <div class="num">
+    <h3 onclick="number(this.id)" id='1'>1</h3>
+    <h3 onclick="number(this.id)" id='2'>2</h3>
+    <h3 onclick="number(this.id)" id='3'>3</h3>
+    <h3 onclick="removeNumber()" id="number"><i class="fa-solid fa-xmark"></i></h3>
+    <h3 onclick="number(this.id)" id='4'>4</h3>
+    <h3 onclick="number(this.id)" id='5'>5</h3>
+    <h3 onclick="number(this.id)" id='6'>6</h3>
+    <h3 onclick="checkAnswer()" id="btn"><i class="fa-solid fa-share"></i></h3>
+    <h3 onclick="number(this.id)" id='7'>7</h3>
+    <h3 onclick="number(this.id)" id='8'>8</h3>
+    <h3 onclick="number(this.id)" id='9'>9</h3>
+    <h3 onclick="number(this.id)" id='-'>-</h3>
+    <h3 onclick="number(this.id)" id='0'>0</h3>
+  </div>
+  <div id="result">
+    
+  </div>
+</section>
+<div class="the-end">
+  <h2 class="win"> 👏 احسنت</h2>
+  <h4>النتيجة النهائية</h4>
+    <div class="rel">
+      <i class="fa-solid fa-flag-checkered"></i>
+      <h1 id="tio">0</h1>
+      
+      <i class="fa-solid fa-heart-pulse"></i>
+      <h1 id="t">0</h1>
+      
+</div>
+<i class="fa-solid fa-rotate-right" onclick="reloadPage()"></i>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
